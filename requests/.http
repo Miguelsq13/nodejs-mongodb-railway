@@ -11,3 +11,12 @@ Content-Type: application/json
 }
 ###
 DELETE http://localhost:4000/api/productos/63c576611bbc7d1a94eded66
+###
+PUT http://localhost:4000/api/productos/63c7510c6fde34f56232e37d
+Content-Type: application/json
+
+{
+    "descripcion": "Prueba1",
+    "producto": "Afiche",
+    "disco": "4"
+}
