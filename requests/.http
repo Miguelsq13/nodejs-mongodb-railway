@@ -1,0 +1,13 @@
+###
+GET http://localhost:4000/api/productos
+###
+POST http://localhost:4000/api/productos
+Content-Type: application/json
+
+{
+    "descripcion": "Insectos",
+    "producto": "Afiche",
+    "disco": "2"
+}
+###
+DELETE http://localhost:4000/api/productos/63c576611bbc7d1a94eded66

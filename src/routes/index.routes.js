@@ -9,4 +9,6 @@ router.post("/", productoCtrl.crearProducto);
 
 router.delete("/:id", productoCtrl.borrarProducto);
 
+router.put("/:id", productoCtrl.actualizarProducto);
+
 export default router;

@@ -33,3 +33,10 @@ export const borrarProducto = async (req, res) => {
     message: `Producto eliminado correctamente`,
   });
 };
+
+export const actualizarProducto = async (req, res) => {
+  await Producto.findByIdAndUpdate(req.params.id, req.body);
+  res.json({
+    message: `Producto actualizado correctamente`,
+  });
+};
